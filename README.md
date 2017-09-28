@@ -86,9 +86,11 @@ funções:
 ```
 /* devolve a posição de time no vetor de n strings times */
 int pos_time(int n, char times[][50], char * time);
+
 /* devolve a pontuação do time que fez gols1 e levou gols2
 * em uma partida */
 int calc_pontos(int gols1, int gols2);
+
 /* devolve o índice da posição no vetor n elementos pontos que
 * possui o maior valor */
 int campeao(int n, int pontos[]);
