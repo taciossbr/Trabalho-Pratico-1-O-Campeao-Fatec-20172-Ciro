@@ -53,6 +53,8 @@ branco depois de cada caso de teste.
 
 ### Exemplo
 #### Entrada
+
+```
 4
 Treze 20
 Campinense 35
@@ -71,15 +73,17 @@ Sport 2-0 Bahia
 Vitoria 3-1 Ceara
 Campinense 2-1 Fortaleza
 0
+```
 #### Saída
+```
 O Sport foi o campeao com 37 pontos :D
 O Sport nao foi o campeao. O time campeao
 foi o Vitoria com 55 pontos :(
-
+```
 Para resolver este problema você deve obrigatoriamente implementar as seguintes
 funções:
 
-`
+```
 /* devolve a posição de time no vetor de n strings times */
 int pos_time(int n, char times[][50], char * time);
 /* devolve a pontuação do time que fez gols1 e levou gols2
@@ -89,7 +93,7 @@ int calc_pontos(int gols1, int gols2);
 * possui o maior valor */
 int campeao(int n, int pontos[]);
 
-`
+```
 
 ### Informações importantes sobre Trabalho
 1. Critérios de avaliação:
