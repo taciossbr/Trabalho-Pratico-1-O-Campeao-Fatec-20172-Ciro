@@ -1,3 +1,11 @@
+/*
+Autores:
+Gabriel Ciccotti Monteiro da Silva
+Tacio dos Santos Souza     
+Vinícius dos Santos Rocha
+
+*/
+
 #include <stdio.h>
 #include <string.h>
 
